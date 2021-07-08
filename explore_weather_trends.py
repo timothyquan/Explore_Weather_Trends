@@ -30,5 +30,5 @@ if __name__ == "__main__":
 
     #use pyplot to generate line graph
     merged_df.plot.line(x="year", y=[city_temp_string, "global_avg_temp_rolling"])
-    plot.legend()
+    plot.ylabel('Degrees Celcius')
     plot.show()   
