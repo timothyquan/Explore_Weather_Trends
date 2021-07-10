@@ -1,6 +1,5 @@
 -- just city data from bangkok:
 --------------------------------------------------------
-
 SELECT *
 FROM city_data cd
 WHERE city='Bangkok';
